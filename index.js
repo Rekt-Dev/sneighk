@@ -3,11 +3,15 @@ import './style.css';
 
 // Write Javascript code!
 const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>fahk a u </h1>`;
 
-let canvas = DOCUMENT.getElementById('canvas');
+let canvas = document.getElementById('canvas');
 
 let ROWS = 50;
 let COLS = 30;
-function initalizeCanvas() {}
+function initalizeCanvas() {
+  for(let i=0;i<ROWS;i++){
+    for (let j=0;j<COLS;j++)
+    let pixel=document.createElement("div")
+  }
+}
 initalizeCanvas();
