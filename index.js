@@ -13,7 +13,7 @@ function initalizeCanvas() {
     for (let j = 0; j < COLS; j++) {
       let pixel = document.createElement('div');
       pixel.style.position = 'absolute';
-      pixel.style.border = `1px solid red`;
+      pixel.style.border = `1px solid blue`;
       pixel.style.left = j * PIXEL + `px`;
       pixel.style.top = i * PIXEL + `px`;
 
